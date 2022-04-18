@@ -1,18 +1,21 @@
----
-name: Tech Spec template
-about: Template for a new tech spec
-title: "[SUBJECT] Tech Spec"
-labels: 'Type: Tech-Spec'
-assignees: ''
-
----
-
 # Tech Spec Title
 **Drafter**: <!-- Your name -->
 **Discussion Meeting**: <!-- Date to discussion the spec as a team; send calendar invite! -->
 
 <!-- Tech specs are a lightweight format for documenting technical research and decision making. The headings below are guidelines, not rules, so modify your copy as you see fit. Especially large tech specs may require more headings and subheadings for example. Be rigorous in your research and planning, but balance that with forward progress - if something is uncertain, document that appropriately and move on if you can. Getting feedback early from team mates during tech spec writing can be helpful too.
 Tech specs are considered 'done' when key stakeholders / leads have reviewed and approved the approach. -->
+
+##  Tech Spec Process
+<!-- Check these off as you work on the tech spec -->
+- [ ] Tech spec drafter: Schedule time to discuss the tech spec with scrum team or whole engineering team depending on the scope of the tech spec
+- [ ] Tech spec drafter: Facilitate that discussion.
+- [ ] Other developers: Read the tech spec before arriving at the discussion.
+- [ ] Other developers: Remind the tech spec drafter if a tech spec has been produced and no meeting has been scheduled.
+- [ ] One or more solutions determined as viable paths forward
+- [ ] Tech spec drafter: Turn tech spec into next-step actionable tickets.
+  - [ ] Write tickets as is necessary
+  - [ ] Other developers provide more formal feedback as is necessary.
+- Add your tech spec to [location]
 
 ## Context
 <!-- Why are you creating this tech spec?
@@ -55,13 +58,3 @@ How will we safely ship this work? Are there migrations, external dependencies t
 
 ## Research Notes
 <!-- Add any accrued research, links to relevant meeting notes, and sources of truth. This is also a good place to document any history to the recommended implementation - if feedback has changed the final approach, leave a note about it here -->
-
-# Tech Spec Process
-- [ ] Tech spec drafter: Schedule time to discuss the tech spec with scrum team or whole engineering team depending on the scope of the tech spec
-- [ ] Tech spec drafter: Facilitate that discussion.
-- [ ] Other developers: Read the tech spec before arriving at the discussion.
-- [ ] Other developers: Remind the tech spec drafter if a tech spec has been produced and no meeting has been scheduled.
-- [ ] One or more solutions determined as viable paths forward
-- [ ] Tech spec drafter: Turn tech spec into next-step actionable tickets.
-  - [ ] Write tickets as is necessary
-  - [ ] Other developers provide more formal feedback as is necessary.
