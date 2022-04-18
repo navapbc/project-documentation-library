@@ -7,14 +7,14 @@ Status:
 ## Summary
 *example:*
 ```
-- Product - Caseflow, all products
+- Product - all products
 Issue category -
-- Mission Impact – Low: Brief intermittent outage for Caseflow products
+- Mission Impact – Low: Brief intermittent outage for products
 ```
 ## Impact
 *example:*
 ```
-- Caseflow users were seeing 5xx errors for a few hours while the RDS DB was at 100% CPU utilization and could not handle more queries
+- Users were seeing 5xx errors for a few hours while the RDS DB was at 100% CPU utilization and could not handle more queries
 ```
 
 ## Root Causes

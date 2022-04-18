@@ -1,12 +1,12 @@
-# Feature Dogfooding Guidelines
-*These guidelines should be used when setting up a session for the team to dogfood a new major feature.*
+# Bug Bash Guidelines
+*These guidelines should be used when setting up a session for the team to test a new major feature.*
 
 ### Steps
-*Either product managers or engineers can own the dogfooding process for a given feature. Please work that out within your team based on capacity.*
+*Either product managers or engineers can own the this process for a given feature. Please work that out within your team based on capacity.*
 1. Copy the template below and fill in with specific instructions for your feature.
-4. Schedule a dogfooding session (typically 1 hour meeting at least 1 sprint before launch).
-6. **Before the dogfooding session**: check to make sure everyone participating has the proper permissions and access so that the session runs smoothly! Select the most appropriate environment(local, dev, and/or test) for your feature.
-7. Facilitate the dogfooding session by going over the testing plan document with the team and giving them time to walk through the instructions manually on their machine. Explain how to report bugs and the specific labels. Ask for 1-2 volunteers to handle accessibility testing.
+4. Schedule a bug bash session (typically 1 hour meeting at least 1 sprint before launch).
+6. **Before the the session**: check to make sure everyone participating has the proper permissions and access so that the session runs smoothly! Select the most appropriate environment(local, dev, and/or test) for your feature.
+7. Facilitate the session by going over the testing plan document with the team and giving them time to walk through the instructions manually on their machine. Explain how to report bugs and the specific labels. Ask for 1-2 volunteers to handle accessibility testing.
 8. Product manager and engineer should meet after the session to triage and prioritize any issues that were reported from the session, deciding what is launch-blocking and including them in the sprint.
 9. Once all launch-blocking issues are resolved, ship it! :rocket:
 
